@@ -54,34 +54,63 @@ public class Enemy {
         }
     }
 
+
+    /**
+     * Enemyクラスのname（名前）を受け取るメソッド
+     * @return String型 name 
+     */
     public String getName(){
         return this.name;
     }
 
+    /**
+     * Enemyクラスのname（名前）を設定するメソッド
+     */
     public void setName(String _name){
         this.name = _name;
     }
     
+    /**
+     * EnemyクラスのhitPoint（HP）を受け取るメソッド
+     * @return int型 hitPoint
+     */
     public int getHitPoint(){
         return this.hitPoint;
     }
     
+    /**
+     * EnemyクラスのhitPoint（HP）を設定するメソッド
+     */
     public void setHitPoint(int _hitPoint){
         this.hitPoint = _hitPoint;
     }
     
+    /**
+     * Enemyクラスのattack（攻撃力）を受け取るメソッド
+     * @return int型 attack
+     */
     public int getAttack(){
         return this.attack;
     }
     
+    /**
+     * Enemyクラスのattack（攻撃力）を設定するメソッド
+     */
     public void setAttack(int _attack){
         this.attack = _attack;
     }
     
+    /**
+     * Enemyクラスのdead（生死状態）を受け取るメソッド
+     * @return boolian型 dead
+     */
     public boolean getDead(){
         return this.dead;
     }
     
+    /**
+     * Enemyクラスのdead（生死状態）を設定するメソッド
+     */
     public void setDead(boolean _dead){
         this.dead = _dead;
     }
